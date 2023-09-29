@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studiji mehatronike na Istarskom veleučilištu: Unošenje datuma ispitnih rokova</title>
+    <!-- Add a link to your external CSS file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div id="header">
+        <img src="static\slika.png" scale= 4 alt="Your Logo">
+    </div>
+    <!-- End Header Section -->
+
+    <!-- Main Content Section -->
+    <div id="container">
+        <h1>Studiji mehatronike na Istarskom veleučilištu: Unošenje datuma ispitnih rokova</h1>
+        <form method="POST" action="/submit">
+            <!-- Kolegij Input -->
+            <label for="kolegij">Kolegij:</label>
+            <input type="text" id="kolegij" name="kolegij" required><br><br>
+
+            <!-- Nositelj Kolegija Input -->
+            <label for="nositelj">Nositelj kolegija:</label>
+            <input type="text" id="nositelj" name="nositelj" required><br><br>
+
+            <!-- Rok 1 Date Input -->
+            <label for="rok1">Rok 1 (Datum):</label>
+            <input type="date" id="rok1" name="rok1" required><br><br>
+
+            <!-- Rok 2 Date Input -->
+            <label for="rok2">Rok 2 (Datum):</label>
+            <input type="date" id="rok2" name="rok2" required><br><br>
+
+            <!-- Rok 3 Date Input -->
+            <label for="rok3">Rok 3 (Datum):</label>
+            <input type="date" id="rok3" name="rok3" required><br><br>
+
+            <!-- Rok 4 Date Input -->
+            <label for="rok4">Rok 4 (Datum):</label>
+            <input type="date" id="rok4" name="rok4" required><br><br>
+
+            <!-- Rok 5 Date Input -->
+            <label for="rok5">Rok 5 (Datum):</label>
+            <input type="date" id="rok5" name="rok5" required><br><br>
+
+            <!-- Rok 6 Date Input -->
+            <label for="rok6">Rok 6 (Datum):</label>
+            <input type="date" id="rok6" name="rok6" required><br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Spremi moj odabir">
+        </form>
+    </div>
+    <!-- End Main Content Section -->
+</body>
+</html>
