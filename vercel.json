@@ -19,6 +19,5 @@
   "env": {
     "FLASK_ENV": "production",
     "FLASK_APP": "app.py",
-    "DATABASE_URL": "sqlite:///database.db"  // Update this with your database URL
   }
 }
